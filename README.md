@@ -20,6 +20,6 @@ It is helpful to then use `--fc` (filter HTTP response code) and `--fs` (filter 
 
 For example:
 
-`./pyfuzz.py --url http://domain.com --domain domain.com --wordlist subdomains.txt --fc 301,500,400 --fs 2345`
+`./pyfuzz.py --url http://domain.com --domain domain.com --wordlist subdomains.txt --fc 301,500,400 --fs 2345,3300`
 
-The above will only show you the HTTP responses that do not have HTTP codes 301 or 500 or 400 AND will not display any responses of size 2345 bytes.
+The above will only show you the HTTP responses that do not have HTTP codes 301 or 500 or 400 AND will not display any responses of size 2345 or 3300 bytes.

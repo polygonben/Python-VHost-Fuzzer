@@ -7,6 +7,8 @@ Simple python script to fuzz for subdomains on a website.
 
 `cd Python-VHost-Fuzzer`
 
+`pip install requests argparse re`
+
 `chmod +x pyfuzz.py` 
 
 ## Usage

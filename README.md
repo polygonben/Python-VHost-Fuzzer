@@ -1,5 +1,5 @@
 # Python-VHost-Fuzzer
-Simple python script to fuzz for subdomains on a website.
+Simple Python 3 script to fuzz for subdomains on a website.
 
 ## Installation
 

@@ -4,7 +4,9 @@ Simple python script to fuzz for subdomains on a website.
 ## Installation
 
 `git clone https://github.com/polygonben/Python-VHost-Fuzzer/` 
+
 `cd Python-VHost-Fuzzer`
+
 `chmod +x pyfuzz.py` 
 
 ## Usage
